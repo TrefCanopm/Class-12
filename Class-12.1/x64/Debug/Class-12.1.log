@@ -1,0 +1,93 @@
+﻿  Main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\utility(200,61): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(673): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const int,float>::pair<int,int,0>(std::pair<int,int> &&) noexcept"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xmemory(680,47): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const int,float>::pair<int,int,0>(std::pair<int,int> &&) noexcept"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(806): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<int,int>>(_Alloc &,_Objty *const ,std::pair<int,int> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<std::allocator<std::pair<const int,float>>>::void_pointer>>,
+              _Ty=std::pair<const int,float>,
+              _Objty=std::pair<const int,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(807,34): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<int,int>>(_Alloc &,_Objty *const ,std::pair<int,int> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<std::allocator<std::pair<const int,float>>>::void_pointer>>,
+              _Ty=std::pair<const int,float>,
+              _Objty=std::pair<const int,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(994): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,float>>,
+              _Ty=std::pair<int,int>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<std::allocator<std::pair<const int,float>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(1010,46): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,float>>,
+              _Ty=std::pair<int,int>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<std::allocator<std::pair<const int,float>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(1031): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Emplace<std::pair<int,int>>(std::pair<int,int> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,float>>,
+              _Kty=int,
+              _Ty=float,
+              _Pr=std::less<int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xtree(1032,30): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_node<std::pair<const int,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::_Emplace<std::pair<int,int>>(std::pair<int,int> &&)"
+          with
+          [
+              _Alloc=std::allocator<std::pair<const int,float>>,
+              _Kty=int,
+              _Ty=float,
+              _Pr=std::less<int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\map(553): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,float>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::emplace<std::pair<int,int>>(std::pair<int,int> &&)"
+          with
+          [
+              _Kty=int,
+              _Ty=float,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,float>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\map(554,9): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,float>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,true>>::emplace<std::pair<int,int>>(std::pair<int,int> &&)"
+          with
+          [
+              _Kty=int,
+              _Ty=float,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,float>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\map(565,1): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,float>>>> std::multimap<int,float,std::less<int>,std::allocator<std::pair<const int,float>>>::emplace<_Ty>(_Ty &&)"
+          with
+          [
+              _Ty=std::pair<int,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\map(565,9): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,float>>>> std::multimap<int,float,std::less<int>,std::allocator<std::pair<const int,float>>>::emplace<_Ty>(_Ty &&)"
+          with
+          [
+              _Ty=std::pair<int,int>
+          ]
+D:\Мои проекты Vethyal studia\Class-12.1\Main.cpp(14): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,float>>>> std::multimap<int,float,std::less<int>,std::allocator<std::pair<const int,float>>>::insert<std::pair<int,int>,0>(_Valty &&)"
+          with
+          [
+              _Valty=std::pair<int,int>
+          ]
+D:\Мои проекты Vethyal studia\Class-12.1\Main.cpp(14,11): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const int,float>>>> std::multimap<int,float,std::less<int>,std::allocator<std::pair<const int,float>>>::insert<std::pair<int,int>,0>(_Valty &&)"
+          with
+          [
+              _Valty=std::pair<int,int>
+          ]
+  Class-12.1.vcxproj -> D:\Мои проекты Vethyal studia\Class-12.1\x64\Debug\Class-12.1.exe
